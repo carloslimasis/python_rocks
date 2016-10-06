@@ -1,5 +1,20 @@
 ## Conceitos
 
+### Declaração de variáveis
+
+Em Python é muito simples declarar uma variável.
+Podemos declarar variáveis da seguinte forma:
+
+```python
+variavel = 20
+```
+
+Além disso, podemos declarar mais de uma variável ao mesmo tempo.
+
+```python
+variavel1 , variavel2 = 'valor1', 1234
+```
+
 ### Declaração explícita de variáveis
 	
 Em Python não existe declaração explícita de variáveis. Uma variável só passa a existir quando atribuímos um valor a ela.
@@ -71,3 +86,15 @@ expressao_slice = expressao_qualquer[6:9]
 expressao_slice
 z u
 ```
+
+### Print
+
+Utilizamos a instrução ****print**** para imprimir textos com a ajuda de curingas.
+
+```python
+nome = 'Carlos'
+idade = 25
+print 'A idade de %s é %s' % (nome, idade)
+```
+
+Caso tentamos concatenar uma variável que não seja do tipo String na utilização do print ocorrerá um erro por causa do tipo da variável idade. Desta, forma se faz necessária a utilização dos curingas.
