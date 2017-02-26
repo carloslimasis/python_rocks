@@ -12,7 +12,7 @@ x = 20
 Besides that, we can to declare more than one variable at the same time.
 
 ```python
-x , y = 'value1', 1234
+a , b = 'value1', 1234
 ```
 
 ### Explicit declaration of variables
