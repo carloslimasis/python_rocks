@@ -90,7 +90,7 @@ z u
 
 ### Print
 
-We use the instruction ****print**** to print texts with the help of
+We use the instruction **print** to print texts with the help of
 wildcards.
 
 ```python
